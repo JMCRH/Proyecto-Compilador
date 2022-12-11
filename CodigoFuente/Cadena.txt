@@ -1,0 +1,9 @@
+
+;imprimir cadena "Resultado: "
+mov ah,09h
+mov dx,offset cad2  ;mueve la cadena a imprimir
+mov ah,09          ;instruccion de int 21h
+int 21h            ;interrupcion
+
+;imprimir resultado <99
+xor ah,ah           ;registros en 0

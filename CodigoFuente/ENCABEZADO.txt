@@ -1,0 +1,22 @@
+.model small
+.data
+
+r1 db 0
+r2 db 0
+r3 db 0 
+r4 db 0
+r5 db 0
+r6 db 0
+r7 db 0
+r8 db 0
+r9 db 0
+r10 db 0 
+resi db 0 
+
+;cadenas:  
+cad2 db 10,13, "Resultado:  $"
+
+.stack
+.code
+;Inicio de la seccion de operaciones
+

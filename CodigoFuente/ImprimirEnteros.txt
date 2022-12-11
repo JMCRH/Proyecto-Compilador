@@ -1,0 +1,15 @@
+aam                 ;ajuste para numeros de dos digitos
+mov bx,ax           ;movimiento de registros
+add bx,3030h        ;conversion a base 10
+
+;imprimir primer digito
+mov ah,02           ;intruccion de int 21h
+mov dl,bh           ;mover al registro de impresion
+int 21h
+
+;imprimir 2do digito
+mov ah,02
+mov dl,bl
+int 21h
+
+.exit

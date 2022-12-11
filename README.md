@@ -95,3 +95,6 @@ El compilador entregado actualmente es capaz de realizar la comilación de una c
 La entrada del compilador debe estar escrita con espacios entre cada sentencia y debe tener una asignación a una variable, por ejemplo:
 
 <pre><code> z = a + b * 4 / c - d</code></pre>
+
+### Descargar ejecutable:
+Para descargar el archivo ejecutable, utilice la liga de [aquí](https://github.com/JMCRH/Proyecto-Compilador/tree/main/Ejecutable)
